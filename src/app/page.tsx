@@ -1,9 +1,12 @@
-import { LandingPage } from "./pages/landing";
+import { Header } from "./organisms/header";
+import { Presentation } from "./organisms/presentation";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      <LandingPage />
+    <main className="w-screen h-screen
+    flex items-center justify-between">
+      <Header />
+      <Presentation />
     </main>
   );
 }
